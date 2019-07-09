@@ -1,0 +1,32 @@
+ul>li {
+  list-style:none;
+}
+.leafimg {
+  width:13px;
+  height:13px;
+}
+.openimg {
+  width:13px;
+  height:13px;
+  transform:rotate(90deg);
+  transition:transform .2s;
+}
+.closeimg {
+  width:13px;
+  height:13px;
+  transform:rotate(0deg);
+  transition:transform .2s;
+}
+.open {
+  color:blue;
+}
+.close {
+  color:orange;
+}
+.leaf {
+  color:black;
+  text-indent:2em;
+}
+span:hover {
+  cursor:pointer
+}
